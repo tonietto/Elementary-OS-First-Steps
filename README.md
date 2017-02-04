@@ -9,7 +9,7 @@
   
   3) [elementary tweaks](#3-elementary-tweaks)
   
-  4) [prevent heating & mem overload]()
+  4) [prevent heating & mem overload](#4-prevent-heating--mem-overload)
   
   5) [libreoffice](#5-libreoffice)
   
@@ -19,7 +19,7 @@
   
   8) [n & nodengine](#8-n--nodengine)
   
-  9) [my .zshrc](#9-my-.zshrc)
+  9) [my .zshrc](#9-zshrc)
   
   10) [hyper & yarn](#10-hyper--yarn)
   
