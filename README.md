@@ -1,25 +1,50 @@
 # Elementary-OS-First-Steps
 :baby_bottle: My first steps for configuring a fresh installed eOS.
 
-## 1 update the system
+## Index
+  
+  1) [update the system](#1-update-the-system)
+  
+  2) [deb & ppa](#2-deb--ppa)
+  
+  3) [elementary tweaks](#3-elementary-tweaks)
+  
+  4) [prevent heating & mem overload]()
+  
+  5) [libreoffice](#5-libreoffice)
+  
+  6) [vim, git & zsh](#6-vim-git--zsh)
+  
+  7) [thefuck, revolver, Sublime Text & Antigen](#7-thefuck-revolver-sublime-text--antigen)
+  
+  8) [n & nodengine](#8-n--nodengine)
+  
+  9) [my .zshrc](#9-my-.zshrc)
+  
+  10) [hyper & yarn](#10-hyper--yarn)
+  
+  11) [other](#11-other)
+
+
+## 1) update the system
 
 
 command: `sudo apt-get update && sudo apt-get upgrade`
 
 
-## 2 deb & ppa
+## 2) deb & ppa
 
 
 command: `sudo apt install gdebi && sudo apt-get install software-properties-common`
 
 
-## 3 elementary tweaks
+## 3) elementary tweaks
 
 
 install: `sudo add-apt-repository ppa:philip.scott/elementary-tweaks && sudo apt-get update && sudo apt-get install elementary-tweaks`
 
 
-## 4 prevent heating & mem overload
+## 4) prevent heating & mem overload
 
 
 install TLP: `sudo apt install tlp tlp-rdw`
@@ -28,13 +53,13 @@ install TLP: `sudo apt install tlp tlp-rdw`
 stop samba: `sudo chmod 744 /usr/lib/gvfs/gvfsd-smb-browse`
 
 
-## 5 libreoffice
+## 5) libreoffice
 
 
 install: `sudo apt install libreoffice`
 
 
-## 6 vim, git & zsh
+## 6) vim, git & zsh
 
 
 • vim: `sudo apt-get install vim && sudo update-alternatives --config editor`
@@ -46,7 +71,7 @@ install: `sudo apt install libreoffice`
 • [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
 
-## 7 thefuck, revolver, Sublime Text & Antigen
+## 7) thefuck, revolver, Sublime Text & Antigen
 
 
 • [Sublime Text](https://sublimetext.com)
@@ -62,20 +87,20 @@ install: `sudo apt install libreoffice`
 
 
 
-## 8 n & nodengine
+## 8) n & nodengine
 
 • [n](https://github.com/mklement0/n-install)
 
 • [nodengine](https://github.com/Kikobeats/nodengine)
 
 
-## 9 .zshrc
+## 9) my .zshrc
 
 
-[.zshrc](https://bitbucket.org/snippets/designprovisuale/rj59R)
+[.zshrc](.zshrc)
 
 
-## 5 hyper & yarn 
+## 10) hyper & yarn 
 
 
 • [hyper](https://github.com/zeit/hyper)
@@ -90,7 +115,7 @@ install: `sudo apt install libreoffice`
 • [yarn](https://yarnpkg.com/docs/install)
 
 
-## 6 other
+## 11) other
 
 • [trash-cli](https://github.com/sindresorhus/trash-cli): comando para substituir seguramente o `rm -rf qualquer-coisa`.
 
