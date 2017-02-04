@@ -99,7 +99,7 @@ install: `sudo apt install libreoffice`
 
 • [hpm-cli](https://www.npmjs.com/package/hpm-cli)
 
-• [.hyper.js config](https://bitbucket.org/snippets/designprovisuale/aB4kd/hyper-default-config)
+• [my .hyper.js](.hyper.js)
 
 • [yarn](https://yarnpkg.com/docs/install)
 
