@@ -107,7 +107,7 @@ install: `sudo apt install libreoffice`
 
 ## 11) other
 
-• [trash-cli](https://github.com/sindresorhus/trash-cli): comando para substituir seguramente o `rm -rf qualquer-coisa`.
+• [trash-cli](https://github.com/sindresorhus/trash-cli)
 
 • [gitflow](https://github.com/petervanderdoes/gitflow-avh)
 
@@ -133,6 +133,8 @@ sudo apt-get install htop
 ```
 
 • [indicator-sysmonitor](https://github.com/fossfreedom/indicator-sysmonitor)
+
+• [sensors-indicator](https://launchpad.net/~alexmurray/+archive/ubuntu/indicator-sensors/+sourcepub/4472975/+listing-archive-extra)
 
 ### Magic mouse: [askubuntu](http://askubuntu.com/questions/261791/how-to-set-the-scroll-speed-of-apple-magic-mouse)
 
