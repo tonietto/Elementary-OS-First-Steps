@@ -156,4 +156,20 @@ sudo apt-get install htop
 >
 > `pointer = 1 25 3 4 5 6 7 8 9`
 
+### Create app with npm package [nativefyer](https://www.npmjs.com/package/nativefier)
+
+### Add to Applications: [StackExchange](http://elementaryos.stackexchange.com/questions/560/how-can-i-add-an-executable-file-to-the-dock)
+
+> Create an application desktop-entry at /usr/share/applications/ with the name app-name.desktop with the following basic details:
+> 
+>```
+> [Desktop Entry]
+> Version=1.0
+> Name=App Name
+> Exec=/dir/path/app/binary
+> Terminal=false
+> Icon=/icon/path/icon.png
+> Type=Application
+>```
+
 [⬆ Back to top](#contents)
