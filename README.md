@@ -1,5 +1,5 @@
 # Elementary-OS-First-Steps
-:baby_bottle: First steps for configuring a fresh installed eOS.
+:baby_bottle: First steps for configuring a fresh installed Elementary OS.
 
 ## Contents
   
