@@ -160,7 +160,7 @@ sudo apt-get install htop
 
 ### Add to Applications: [StackExchange](http://elementaryos.stackexchange.com/questions/560/how-can-i-add-an-executable-file-to-the-dock)
 
-> Create an application desktop-entry at /usr/share/applications/ with the name app-name.desktop with the following basic details:
+> Create an application desktop-entry at `/usr/share/applications/` with the name `app-name.desktop` with the following basic details:
 > 
 >```
 > [Desktop Entry]
