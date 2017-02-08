@@ -1,4 +1,4 @@
-# spinner
+# start spinner
 revolver --style 'simpleDots' start
 
 # Path to your oh-my-zsh installation.
@@ -38,6 +38,7 @@ antigen bundles <<EOBUNDLES
   sublime
   thefuck
   web-search
+  tonietto/show-version
 EOBUNDLES
 
 # Syntax highlighting bundle.
@@ -59,29 +60,6 @@ alias please='sudo'
 alias poweroff='gnome-session-quit --power-off' # Ubuntu specific
 alias sleep='xset dpms force off' # Ubuntu specific
 
-# Functions
-show-version() {
-  if [ ! -f package.json ]; then
-      echo $fg[red]"package.json not found!"
-  else
-    PACKAGE_VERSION=$(cat package.json \
-    | grep version \
-    | head -1 \
-    | awk -F: '{ print $2 }' \
-    | sed 's/[",]//g' \
-    | tr -d '[[:space:]]')
-
-    PACKAGE_NAME=$(cat package.json \
-    | grep name \
-    | head -1 \
-    | awk -F: '{ print $2 }' \
-    | sed 's/[",]//g' \
-    | tr -d '[[:space:]]')
-
-    printf "\033[36m%s\033[0m \033[90m%s\033[0m\n" $PACKAGE_NAME "$PACKAGE_VERSION"
-  fi
-}
-
 # nodengine
 cd () { builtin cd "$@" && chpwd; }
 pushd () { builtin pushd "$@" && chpwd; }
@@ -90,19 +68,7 @@ popd () { builtin popd "$@" && chpwd; }
 #The Fuck
 eval "$(thefuck --alias)"
 
-chpwd () {
-  local PKG
-  
-  PKG=$PWD/package.json
-    if [ -f "$PKG" ] && [ "$NODENGINE_LAST_DIR" != "$PWD" ]; then
-      show-version
-      nodengine
-      printf "\033[36m%s\033[0m \033[90m%s\033[0m\n" "node" "$(node --version)"
-      NODENGINE_LAST_DIR=$PWD
-    fi
-}
-
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
-# spinner
+# stop spinner
 revolver stop
