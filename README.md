@@ -113,47 +113,35 @@ install: `sudo apt install libreoffice`
 
 - sushi:
 
-  ```
-  sudo apt-get update && sudo apt-get install gnome-sushi
-  ```
+      sudo apt-get update && sudo apt-get install gnome-sushi
 
 - [arc-theme](https://github.com/horst3180/Arc-theme):
 
-  ```
-  wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.10/Release.key
-  sudo apt-key add - < Release.key 
+      wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.10/Release.key
+      sudo apt-key add - < Release.key 
 
-  sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/arc-theme.list"
-  sudo apt-get update
-  sudo apt-get install arc-theme
-  ```
+      sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+      sudo apt-get update
+      sudo apt-get install arc-theme
 
 - [papirus icons](http://www.noobslab.com/2015/10/papirus-icons-for-unity-papirus-theme.html):
 
-  ```
-  sudo add-apt-repository ppa:noobslab/icons
-  sudo apt-get update
-  sudo apt-get install papirus-icons
-  ```
+      sudo add-apt-repository ppa:noobslab/icons
+      sudo apt-get update
+      sudo apt-get install papirus-icons
 
 - Sushi(nemo):
 
-  ```
-  sudo add-apt-repository ppa:nilarimogard/webupd8
-  sudo apt-get update
-  sudo apt-get install nemo-gloobus-sushi
-  ```
+      sudo add-apt-repository ppa:nilarimogard/webupd8
+      sudo apt-get update
+      sudo apt-get install nemo-gloobus-sushi
 
 - Ranger:
 
-  ```
-  sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
-  ```
+      sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
 - htop:
 
-  ```
-  sudo apt-get install htop
-  ```
+      sudo apt-get install htop
 
 - [indicator-sysmonitor](https://github.com/fossfreedom/indicator-sysmonitor)
 
