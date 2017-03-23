@@ -71,7 +71,7 @@ install: `sudo apt install libreoffice`
 
 - [Sublime Text](https://sublimetext.com)
 
-- [The Fuck](https://github.com/nvbn/thefuck) (unecessary if added with Antigen at `.zshrc`) 
+- [The Fuck](https://github.com/nvbn/thefuck)
 
 - [revolver](https://github.com/molovo/revolver)
 
