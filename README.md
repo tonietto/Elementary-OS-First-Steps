@@ -113,47 +113,47 @@ install: `sudo apt install libreoffice`
 
 - sushi:
 
-```
-sudo apt-get update && sudo apt-get install gnome-sushi
-```
+  ```
+  sudo apt-get update && sudo apt-get install gnome-sushi
+  ```
 
 - [arc-theme](https://github.com/horst3180/Arc-theme):
 
-```
-wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.10/Release.key
-sudo apt-key add - < Release.key 
+  ```
+  wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.10/Release.key
+  sudo apt-key add - < Release.key 
 
-sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/arc-theme.list"
-sudo apt-get update
-sudo apt-get install arc-theme
-```
+  sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+  sudo apt-get update
+  sudo apt-get install arc-theme
+  ```
 
 - [papirus icons](http://www.noobslab.com/2015/10/papirus-icons-for-unity-papirus-theme.html):
-```
-sudo add-apt-repository ppa:noobslab/icons
-sudo apt-get update
-sudo apt-get install papirus-icons
-```
+
+  ```
+  sudo add-apt-repository ppa:noobslab/icons
+  sudo apt-get update
+  sudo apt-get install papirus-icons
+  ```
 
 - Sushi(nemo):
 
-```
-sudo add-apt-repository ppa:nilarimogard/webupd8
-sudo apt-get update
-sudo apt-get install nemo-gloobus-sushi
-```
+  ```
+  sudo add-apt-repository ppa:nilarimogard/webupd8
+  sudo apt-get update
+  sudo apt-get install nemo-gloobus-sushi
+  ```
 
 - Ranger:
 
-```
-sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
-```
+  ```
+  sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
+  ```
 - htop:
 
-```
-sudo apt-get install htop
-
-```
+  ```
+  sudo apt-get install htop
+  ```
 
 - [indicator-sysmonitor](https://github.com/fossfreedom/indicator-sysmonitor)
 
@@ -161,38 +161,38 @@ sudo apt-get install htop
 
 - Magic mouse ([askubuntu](http://askubuntu.com/questions/261791/how-to-set-the-scroll-speed-of-apple-magic-mouse)):
 
-> put this inside `/etc/modprobe.d/magicmouse.conf`:
-> 
-> `options hid_magicmouse scroll-speed=45 scroll-acceleration=1`
+  > put this inside `/etc/modprobe.d/magicmouse.conf`:
+  > 
+  > `options hid_magicmouse scroll-speed=45 scroll-acceleration=1`
 
 - Alternate command & ctrl keys ([StackExchange](http://elementaryos.stackexchange.com/questions/1283/how-to-setup-keyboard-layout-similar-to-os-x)):
 
-> `gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_lwin_lctl']"`
+  > `gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_lwin_lctl']"`
 
 - Disable annoying middle mouse click ([AskUbuntu](http://askubuntu.com/questions/4507/how-do-i-disable-middle-mouse-button-click-paste)):
 
-> Run the following command:
->
-> `xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9"`
->
-> To persist this behavior, edit `~/.Xmodmap` and add
->
-> `pointer = 1 25 3 4 5 6 7 8 9`
+  > Run the following command:
+  >
+  > `xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9"`
+  >
+  > To persist this behavior, edit `~/.Xmodmap` and add
+  >
+  > `pointer = 1 25 3 4 5 6 7 8 9`
 
 - Create native app with npm package [nativefyer](https://www.npmjs.com/package/nativefier)
 
 - Add an app to Applications menu ([StackExchange](http://elementaryos.stackexchange.com/questions/560/how-can-i-add-an-executable-file-to-the-dock)):
 
-> Create an application desktop-entry at `/usr/share/applications/` with the name `app-name.desktop` with the following basic details:
-> 
->```
-> [Desktop Entry]
-> Version=1.0
-> Name=App Name
-> Exec=/dir/path/app/binary
-> Terminal=false
-> Icon=/icon/path/icon.png
-> Type=Application
->```
+  > Create an application desktop-entry at `/usr/share/applications/` with the name `app-name.desktop` with the following basic details:
+  > 
+  >```
+  > [Desktop Entry]
+  > Version=1.0
+  > Name=App Name
+  > Exec=/dir/path/app/binary
+  > Terminal=false
+  > Icon=/icon/path/icon.png
+  > Type=Application
+  >```
 
 [⬆ Back to top](#contents)
