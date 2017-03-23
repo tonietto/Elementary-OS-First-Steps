@@ -138,7 +138,7 @@ sudo apt-get install htop
 
 ### Magic mouse: [askubuntu](http://askubuntu.com/questions/261791/how-to-set-the-scroll-speed-of-apple-magic-mouse)
 
-> put to the /etc/modprobe.d/magicmouse.conf this:
+> put this inside `/etc/modprobe.d/magicmouse.conf`:
 > 
 > `options hid_magicmouse scroll-speed=45 scroll-acceleration=1`
 
