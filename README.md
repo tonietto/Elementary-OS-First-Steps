@@ -111,7 +111,11 @@ install: `sudo apt install libreoffice`
 
 - [gitflow](https://github.com/petervanderdoes/gitflow-avh)
 
-- [sushi](sudo apt-get update && sudo apt-get install gnome-sushi)
+- sushi:
+
+```
+sudo apt-get update && sudo apt-get install gnome-sushi
+```
 
 - [arc-theme](https://github.com/horst3180/Arc-theme):
 
