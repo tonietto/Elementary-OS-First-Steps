@@ -103,7 +103,7 @@ install: `sudo apt install libreoffice`
 
 - [yarn](https://yarnpkg.com/docs/install)
 
-- [yarn zsh completitions](https://github.com/mklabs/yarn-completions)
+- [yarn zsh completions](https://github.com/mklabs/yarn-completions)
 
 [⬆ Back to top](#contents)
 
