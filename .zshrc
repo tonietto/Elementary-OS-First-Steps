@@ -55,10 +55,22 @@ antigen apply
 # User configuration
 export PATH="/usr/local/heroku/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/bin:/usr/games"
 
-# nodengine
+# nodengine and show-version
 cd () { builtin cd "$@" && chpwd; }
 pushd () { builtin pushd "$@" && chpwd; }
 popd () { builtin popd "$@" && chpwd; }
+
+chpwd () {
+  local PKG
+
+  PKG=$PWD/package.json
+  if [ -f "$PKG" ] && [ "$NODENGINE_LAST_DIR" != "$PWD" ]; then
+    nodengine
+    show-version
+    printf "\033[36m%s\033[0m \033[90m%s\033[0m\n" "nodengine" "$(node --version)"
+    NODENGINE_LAST_DIR=$PWD
+  fi
+}
 
 #The Fuck
 eval "$(thefuck --alias)"
