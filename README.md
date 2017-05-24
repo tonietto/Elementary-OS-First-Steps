@@ -182,5 +182,7 @@ install: `sudo apt install libreoffice`
   > Icon=/icon/path/icon.png
   > Type=Application
   >```
+  
+- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
 [⬆ Back to top](#contents)
