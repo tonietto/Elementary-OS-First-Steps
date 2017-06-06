@@ -185,4 +185,31 @@ install: `sudo apt install libreoffice`
   
 - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
+- [Better emojis](http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto) - font.conf file:
+
+	  <fontconfig>
+
+	    <match>
+	      <test name="family"><string>sans-serif</string></test>
+	      <edit name="family" mode="prepend" binding="weak">
+	      <string>Noto Color Emoji</string>
+	      </edit>
+	    </match>
+
+	    <match>
+	      <test name="family"><string>serif</string></test>
+	      <edit name="family" mode="prepend" binding="weak">
+	      <string>Noto Color Emoji</string>
+	      </edit>
+	    </match>
+
+	    <match>
+	      <test name="family"><string>Apple Color Emoji</string></test>
+	      <edit name="family" mode="prepend" binding="weak">
+	      <string>Noto Color Emoji</string>
+	      </edit>
+	    </match>
+
+	  </fontconfig>
+
 [⬆ Back to top](#contents)
