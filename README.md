@@ -185,7 +185,7 @@ install: `sudo apt install libreoffice`
   
 - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
-- [Better emojis](http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto) - font.conf file:
+- [Better emojis](http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto) - fonts.conf file:
 
 	  <fontconfig>
 
